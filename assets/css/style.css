@@ -1,0 +1,51 @@
+body {
+    background-color: #eee;
+    padding-top: 20px;
+    font-family: 'Fredoka One', cursive;
+    color: white;
+    text-shadow: 0 0 2px black, -1px -1px 2px black, 1px 0 2px black, 1px 1px 2px black;
+    background: url('../images/bg-img.png') no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.container { 
+    text-align: center;
+    
+}
+h1,h2,h3,
+h4,h5,h6 {
+    padding: 5px;
+}
+#title-heading{
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow: 1px 2px 8.5px #3F51B5;
+}
+#title-heading, #gameover-image, #youwin-image{ 
+    display: block;
+    margin: 0 auto;
+    color: #03fdff;
+    font-weight: bold;
+}
+
+#currentWord {
+    letter-spacing: 10px;
+}
+
+#pressKeyTryAgain, 
+#gameover-image, 
+#youwin-image { 
+    display: none;
+}
+.gameplay-column {
+    padding-top: 20px;
+    border: 20px solid rgba(31, 92, 179, 0.74);
+    text-align: center;
+    margin-top: 20px;
+    min-height: 500px;
+    background-color: rgba(39, 57, 176, 0.56);
+}
+#totalWins, #remainingGuesses, #guessedLetters, #currentWord{
+    color: #03fdff;
+    font-weight: bold;
+}
